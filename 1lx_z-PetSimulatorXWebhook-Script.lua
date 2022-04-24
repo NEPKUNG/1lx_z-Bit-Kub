@@ -23,7 +23,7 @@ if game.PlaceId == 6284583030 or game.PlaceId == 7722306047 then
     function Send(Name, Nickname, Strength, Rarity, Thumbnail, Formation, Color, NewPowers, nth)
         local Webhook = _G.Webhook
         local msg = {
-            ["username"] = "Pet Webhook Thing",
+            ["username"] = "1lx_z Hub Webhook (Pet Simulator X",
             ["embeds"] = {
                 {
                     ["color"] = tonumber(tostring("0x" .. Color)), --decimal
